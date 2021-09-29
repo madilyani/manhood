@@ -1,0 +1,29 @@
+.countNumber{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: $black;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    color: $black;
+    font-family: $font_main;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 6px;
+    line-height: 7px;
+    border-radius: 20px;
+    background: $gray;
+    transform: translate(40%, -20%);
+
+    &__outer{
+        position: relative;
+
+        img{
+            width: 100%;
+        }
+    }
+}
