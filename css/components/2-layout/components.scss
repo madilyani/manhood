@@ -1,3 +1,9 @@
+.bg--red{
+    background: $red;
+}
+.bg--gray{
+    background: #f7f7f7;
+}
 .countNumber{
     position: absolute;
     display: flex;
@@ -24,6 +30,28 @@
 
         img{
             width: 100%;
+        }
+    }
+}
+
+.slider{
+    &Outer{
+        padding: 130px 0;
+        position: relative;
+        
+        &::before{
+            @include contentAbsolute;
+            top: 0;
+            left: 0;
+            height: 50%;
+            width: 100%;
+            background: #eeeeee;
+        }
+    }
+    &__slide{
+        img{
+            width: 100%;
+
         }
     }
 }
