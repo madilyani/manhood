@@ -234,8 +234,8 @@ li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 25px;
-  height: 25px;
+  width: 28px;
+  height: 28px;
   background: #fff;
   border-radius: 50%;
   -webkit-transition: all 0.2s ease-in-out 0s;
@@ -249,8 +249,8 @@ li {
   width: 10px;
 }
 .header__inner-ham {
-  width: 25px;
-  height: 25px;
+  width: 28px;
+  height: 28px;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -292,15 +292,15 @@ li {
   position: absolute;
   background: #CD052C;
   color: #000;
-  width: 40px;
-  height: 40px;
-  font-size: 10px;
+  width: 28px;
+  height: 28px;
+  font-size: 8px;
   text-align: center;
   border-radius: 50%;
   top: calc(100% + 20px);
   letter-spacing: -1px;
   font-weight: bold;
-  right: -7px;
+  right: -2px;
   -webkit-transition: all 0.2s ease-in-out 0s;
   transition: all 0.2s ease-in-out 0s;
   -moz-transition: all 0.2s ease-in-out 0s;
@@ -498,6 +498,7 @@ body.bg--red .fixedButton {
   margin: 0 35px;
 }
 .scrollSection__inner-column img {
+  margin-top: -15px;
   max-height: 650px;
 }
 .scrollSection__inner-column p {
