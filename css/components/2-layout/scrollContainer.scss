@@ -12,9 +12,6 @@ body.bg--red {
       display: none !important;
     }
   }
-  .fixedButton {
-    background: $white;
-  }
 }
 // .sticky {
 //   position: sticky;
@@ -167,12 +164,17 @@ body.bg--red {
       max-width: 810px;
     }
     &-column {
-      width: calc(100% / 3 - 70px);
+      width: calc( (100% - 150px)/2 - 70px);
       margin: 0 35px;
 
-      img {
-        margin-top: -15px;
+      &:first-child{
+        width: 150px;
         max-height: 650px;
+        overflow: hidden;
+
+        img{
+          width: 90%;
+        }
       }
       p {
         color: $white;

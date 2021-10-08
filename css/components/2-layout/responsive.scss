@@ -113,15 +113,13 @@
         margin: 0 -15px;
       }
       &-column {
-        width: calc((100% - 230px) / 2 - 30px);
-        margin: 0 15px;
+        width: calc((100% - 180px) / 2 - 40px);
+        margin: 0 20px;
 
         &:first-child {
-          width: 200px;
-        }
-        img {
-          max-height: 650px;
-          width: 100%;
+          width: 150px;
+          margin-top: 7px;
+          margin: 0 15px;
         }
         p {
           font-size: 20px;
@@ -291,11 +289,12 @@
         margin: 0 -5px;
       }
       &-column {
-        width: calc((100% - 120px) / 2 - 10px);
-        margin: 0 5px;
+        width: calc((100% - 130px) / 2 - 30px);
+        margin: 0 15px;
 
         &:first-child {
-          width: 120px;
+          width: 100px;
+          max-height: 500px;
         }
         img {
           max-height: unset;
@@ -303,8 +302,10 @@
           width: 100%;
         }
         p {
-          font-size: 16px;
-          line-height: 35px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 26px;
         }
       }
     }
@@ -315,11 +316,11 @@
     right: 20px;
   }
   
-.slider{
-  &Outer{
-      padding: 100px 0;
+  .slider{
+    &Outer{
+        padding: 100px 0;
+    }
   }
-}
 }
 
 // max-width: 540px
@@ -415,36 +416,37 @@
         }
       }
       &-row {
+        box-sizing: border-box;
+        position: relative;
         flex-wrap: wrap;
         width: 100%;
         margin: 0;
+        padding-left: 105px;
       }
       &-column {
         width: 100%;
         margin: 20px 0;
         overflow: hidden;
-
         &:first-child {
-          width: 100%;
+          position: absolute;
+          left: -20px;
+          top:  26px;
+          max-height: unset;
         }
         img {
-          display: block;
           max-height: unset;
-          width: 50%;
-          margin: 0 auto;
         }
-        p {
-          font-size: 16px;
-          line-height: 28px;
+        p{
+          line-height: 30px;
         }
       }
     }
   }
-   
-.slider{
-  &Outer{
-      padding: 40px 0;
+    
+  .slider{
+    &Outer{
+        padding: 40px 0;
+    }
+    
   }
-  
-}
 }
